@@ -81,4 +81,5 @@ graph TD
     CAIXA -->|Sucção de Água| BOMBA
     BOMBA -->|Água Pressurizada| TUBOS
     TUBOS -->|Irrigação Dosada 1 min| VASOS
+```
 
