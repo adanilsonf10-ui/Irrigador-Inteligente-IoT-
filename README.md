@@ -40,46 +40,7 @@ A irrigação é executada automaticamente através de uma rotina diária inteli
 
 ## 📐 Diagrama Elétrico e Hidráulico
 
-```mermaid
-graph TD
-    classDef rede fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
-    classDef fonte fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
-    classDef rele fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1;
-    classDef carga fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
-    classDef hidraulica fill:#e0f7fa,stroke:#00838f,stroke-width:2px,color:#006064;
+![Esquema Elétrico e Hidráulico](images/esquema.png)
 
-    subgraph ENERGIA ["⚡ Alimentação Elétrica"]
-        AC["Rede Elétrica 110V AC"] ::: rede
-        TOMADA["Tomada de Segurança / Chave de Manutenção"] ::: rede
-    end
 
-    subgraph AUTOMACAO ["🤖 Controle Inteligente"]
-        RELE["Relé Wi-Fi Inteligente Mini (Smart Life/Tuya)"] ::: rele
-    end
-
-    subgraph CONVERSAO ["💡 Conversão de Potência"]
-        FONTE["Fonte Slim de Alumínio 12V 10A<br/><i>(Corpo em alumínio para refrigeração passiva)</i>"] ::: fonte
-    end
-
-    subgraph CARGA ["💧 Sistema de Bombeamento"]
-        BOMBA["Bomba Dupla Diafragma 12V 6A"] ::: carga
-    end
-
-    subgraph HIDRAULICA ["🌿 Rede Hidráulica"]
-        CAIXA[("Caixa d'Água (Torneira Aberta)")] ::: hidraulica
-        TUBOS["Micro-tubos 6mm"] ::: hidraulica
-        VASOS["12 Gotejadores / Vasos de Plantas"] ::: hidraulica
-    end
-
-    %% Ligações Elétricas
-    AC ==>|110V| TOMADA
-    TOMADA ==>|Fase / Neutro| RELE
-    RELE ==>|110V Comutado| FONTE
-    FONTE ==>|12V DC Positivo / Negativo| BOMBA
-
-    %% Ligações Hidráulicas
-    CAIXA -->|Sucção de Água| BOMBA
-    BOMBA -->|Água Pressurizada| TUBOS
-    TUBOS -->|Irrigação Dosada 1 min| VASOS
-```
-
+  
