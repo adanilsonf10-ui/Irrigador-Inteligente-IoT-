@@ -15,12 +15,13 @@
   Um projeto focado em zero desperdício de água, acionamento por inteligência de voz via Alexa, proteção elétrica com refrigeração passiva e arquitetura expansível para Home Assistant e ESP32.
 </p>
 
-[📌 Visão Geral](#-visao-geral-do-projeto) •
-[🛠️ Hardware](#%EF%B8%8F-especificacoes-tecnicas-de-hardware) •
-[🤖 Automação](#-fluxo-explicativo-da-automacao) •
-[📸 Galeria](#-galeria-visual-do-projeto) •
-[📐 Diagrama](#-arquitetura-do-sistema) •
-[🚀 Roadmap](#-roadmap-de-evolucao)
+[📌 Visão Geral](#visao-geral) •
+[🎬 Vídeo](#video) •
+[🛠️ Hardware](#hardware) •
+[🤖 Automação](#automacao) •
+[📸 Galeria](#galeria) •
+[📐 Diagrama](#diagrama) •
+[🚀 Roadmap](#roadmap)
 
 ---
 
@@ -28,6 +29,7 @@
 
 <br/>
 
+<a name="visao-geral"></a>
 ## 📌 Visão Geral do Projeto
 
 <table>
@@ -38,7 +40,7 @@
     </td>
     <td width="50%">
       <h3>⚡ Segurança Elétrica Reforçada</h3>
-      <p>Alimentação por <b>fonte chaveada Slim de alumínio (12V 10A)</b> com dissipação de calor 100% passiva, seccionada por tomada física e chave de emergência para manutenção rápida e segura.</p>
+      <p>Alimentação por <b>fonte chaveada Slim de alumínio (12V 10A)</b> com dissipação de calor passiva, seccionada por tomada física e chave de emergência para manutenção rápida e segura.</p>
     </td>
   </tr>
   <tr>
@@ -57,12 +59,30 @@
 
 ---
 
+<a name="video"></a>
+## 🎬 Demonstração em Vídeo no YouTube
+
+<div align="center">
+
+Clique na imagem abaixo para ver a demonstração completa do sistema em funcionamento:
+
+[![Irrigação Automática Fácil e Barata](https://img.youtube.com/vi/TMzYDPzZcuI/maxresdefault.jpg)](https://www.youtube.com/watch?v=TMzYDPzZcuI)
+
+*<b>Irrigação Automática Fácil e Barata: Para Você que Não Tem Tempo de Molhar as Plantas!</b>*
+
+</div>
+
+<br/>
+
+---
+
+<a name="hardware"></a>
 ## 🛠️ Especificações Técnicas de Hardware
 
 | Componente | Categoria | Especificação Técnica | Função Operacional no Sistema |
 | :--- | :---: | :--- | :--- |
 | **Bomba de Água** | Hidráulica | Mini Dupla Diafragma (12V DC / 6A) | Sucção da água da caixa e pressurização para a rede |
-| **Fonte de Alimentação** | Elétrica | Chaveada Slim Alumínio (12V DC / 10A) | Conversão 110V/12V com refrigeração passiva em alumínio |
+| **Fonte de Alimentação** | Elétrica | Chaveada Slim Alumínio (12V DC / 10A) | Conversão 110V/12V com refrigeração passiva |
 | **Relé Inteligente** | Automação | Módulo Mini Smart (Smart Life / Tuya) | Comutação da rede elétrica controlada via Wi-Fi |
 | **Chave de Manutenção** | Segurança | Tomada Física + Chave de Seccionamento | Isolamento elétrico manual instantâneo do sistema |
 | **Rede de Distribuição** | Hidráulica | Micro-tubos 6mm + 12 Gotejadores | Condução e rega localizada direta no solo dos vasos |
@@ -72,27 +92,23 @@
 
 ---
 
+<a name="automacao"></a>
 ## 🤖 Fluxo Explicativo da Automação
 
 > [!NOTE]  
 > A irrigação ocorre em um ciclo diário automatizado de **exatos 60 segundos**, alinhando controle elétrico e confirmação sonora.
 
-<details open>
-<summary><b>🔍 Passo a Passo Detalhado do Ciclo Diário</b></summary>
-<br/>
-
-1. 🕒 **09:00 — Análise Meteorológica:** A Alexa consulta o serviço de clima e verifica a probabilidade de chuva do dia.
-2. 🗣️ **09:00 — Alerta Sonoro:** A caixa Echo emite o aviso: *"Vou molhar as plantas do corredor agora às 9 horas"*.
-3. ⚡ **09:00 — Acionamento Elétrico:** O Relé Wi-Fi chaveia a alimentação de 110V para a Fonte Slim de 12V.
-4. 💧 **09:00 às 09:01 — Rega Pressurizada:** A bomba de diafragma opera por 60 segundos alimentando a rede de 12 gotejadores.
-5. ✅ **09:01 — Finalização Segura:** O relé corta a energia da fonte e a Alexa confirma: *"Acabei de regar as plantas e desliguei a água"*.
-
-</details>
+* 🕒 **09:00 — Análise Meteorológica:** A Alexa consulta o serviço de clima e verifica a probabilidade de chuva do dia.
+* 🗣️ **09:00 — Alerta Sonoro:** A caixa Echo emite o aviso: *"Vou molhar as plantas do corredor agora às 9 horas"*.
+* ⚡ **09:00 — Acionamento Elétrico:** O Relé Wi-Fi chaveia a alimentação de 110V para a Fonte Slim de 12V.
+* 💧 **09:00 às 09:01 — Rega Pressurizada:** A bomba de diafragma opera por 60 segundos alimentando a rede de 12 gotejadores.
+* ✅ **09:01 — Finalização Segura:** O relé corta a energia da fonte e a Alexa confirma: *"Acabei de regar as plantas e desliguei a água"*.
 
 <br/>
 
 ---
 
+<a name="galeria"></a>
 ## 📸 Galeria Visual do Projeto
 
 <div align="center">
@@ -108,9 +124,8 @@
 
 ---
 
+<a name="diagrama"></a>
 ## 📐 Arquitetura do Sistema
-
-Abaixo está o diagrama do circuito elétrico e hidráulico em formato de imagem fixo, imune a erros de tradução de navegadores:
 
 <div align="center">
 
@@ -122,12 +137,13 @@ Abaixo está o diagrama do circuito elétrico e hidráulico em formato de imagem
 
 ---
 
+<a name="roadmap"></a>
 ## 🚀 Roadmap de Evolução
 
 - [x] **Fase 1:** Montagem e testes do painel elétrico (Fonte Slim 12V 10A + Relé Wi-Fi + Tomada de Segurança).
 - [x] **Fase 2:** Instalação da infraestrutura hidráulica (Bomba dupla diafragma, tubos 6mm e 12 gotejadores).
 - [x] **Fase 3:** Configuração das rotinas de voz, checagem do clima e avisos sonoros na Alexa.
-- [ ] **Fase 4 (Em breve):** Instalação de sensor capacitivo de umidade do solo para prevenção em dias chuvosos/úmidos.
+- [ ] **Fase 4 (Em breve):** Instalação de sensor capacitivo de umidade do solo para prevenção em dias chuvosos.
 - [ ] **Fase 5:** Gravação de firmware **ESPHome** em placa **ESP32** para controle local.
 - [ ] **Fase 6:** Migração do controle da nuvem para o **Home Assistant** hospedado no servidor **CasaOS**.
 
