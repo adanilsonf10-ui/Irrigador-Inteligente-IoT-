@@ -30,27 +30,6 @@
 
 <br/>
 
-
-  
-<br/>
-
----
-
-<a name="video"></a>
-## 🎬 Demonstração em Vídeo no YouTube
-
-<div align="center">
-
-Clique na imagem abaixo para ver a demonstração completa do sistema em funcionamento:
-
-[![Irrigação Automática Fácil e Barata](https://img.youtube.com/vi/TMzYDPzZcuI/maxresdefault.jpg)](https://www.youtube.com/watch?v=TMzYDPzZcuI)
-
-*<b>Irrigação Automática Fácil e Barata: Para Você que Não Tem Tempo de Molhar as Plantas!</b>*
-
-</div>
-
-<br/>
-
 <a name="visao-geral"></a>
 ## 📌 Visão Geral do Projeto
 
@@ -82,6 +61,27 @@ Clique na imagem abaixo para ver a demonstração completa do sistema em funcion
     </td>
   </tr>
 </table>
+
+  
+<br/>
+
+---
+
+<a name="video"></a>
+## 🎬 Demonstração em Vídeo no YouTube
+
+<div align="center">
+
+Clique na imagem abaixo para ver a demonstração completa do sistema em funcionamento:
+
+[![Irrigação Automática Fácil e Barata](https://img.youtube.com/vi/TMzYDPzZcuI/maxresdefault.jpg)](https://www.youtube.com/watch?v=TMzYDPzZcuI)
+
+*<b>Irrigação Automática Fácil e Barata: Para Você que Não Tem Tempo de Molhar as Plantas!</b>*
+
+</div>
+
+<br/>
+
 
 ---
 
