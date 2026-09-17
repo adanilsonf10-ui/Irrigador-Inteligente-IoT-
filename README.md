@@ -30,32 +30,8 @@
 
 <br/>
 
-<a name="visao-geral"></a>
-## 📌 Visão Geral do Projeto
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>💧 Precisão Hidráulica</h3>
-      <p>Micro-dosagem direcionada diretamente às raízes através de <b>12 gotejadores ajustáveis</b> conectados por micro-tubos de 6mm, eliminando o desperdício por evaporação ou escorrimento superficial.</p>
-    </td>
-    <td width="50%">
-      <h3>⚡ Segurança Elétrica Reforçada</h3>
-      <p>Alimentação por <b>fonte chaveada Slim de alumínio (12V 10A)</b> com dissipação de calor passiva, seccionada por tomada física e chave de emergência para manutenção rápida e segura.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🗣️ Rotina Inteligente por Voz e Clima</h3>
-      <p>Integração total ao ecossistema Alexa para <b>checagem prévia da previsão do tempo</b>, envio de notificações no smartphone e feedback por voz antes e depois da rega.</p>
-    </td>
-    <td width="50%">
-      <h3>🛠️ Arquitetura Acessível & Aberta</h3>
-      <p>Construído com componentes modulares de fácil acesso, otimizado para operação em nuvem (Smart Life/Tuya) e estruturado para futura migração local via <b>ESP32 e Home Assistant (CasaOS)</b>.</p>
-    </td>
-  </tr>
-</table>
-
+  
 <br/>
 
 ---
@@ -74,6 +50,38 @@ Clique na imagem abaixo para ver a demonstração completa do sistema em funcion
 </div>
 
 <br/>
+
+<a name="visao-geral"></a>
+## 📌 Visão Geral do Projeto
+
+> [!IMPORTANT]
+> 🎯 **O Propósito e a Escalabilidade do Sistema**
+> Este projeto foi desenvolvido para resolver um problema real e cotidiano: **a falta de tempo e o cansaço acumulado da rotina**. Seja para quem mora na cidade e não consegue manter as plantas cuidadas, ou para quem possui uma horta em um sítio e sofre com a distância e a dificuldade de monitoramento constante. 
+> 
+> O grande diferencial desta arquitetura é a **escalabilidade**: a mesma lógica inteligente de automação de baixo custo aplicada nestes 12 vasos pode ser expandida para o campo, bastando dimensionar componentes de maior potência (como bombas agrícolas e contactoras) para distribuição em larga escala.
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>💧 Precisão Hidráulica</h3>
+      <p>Micro-dosagem direcionada diretamente às raízes através de <b>12 gotejadores ajustáveis</b> conectados por micro-tubos de 6mm, eliminando o desperdício por evaporação ou escorrimento superficial.</p>
+    </td>
+    <td width="50%">
+      <h3>⚡ Segurança Elétrica Reforçada</h3>
+      <p>Alimentação por <b>fonte chaveada Slim de alumínio (12V 10A)</b> com dissipação de calor passiva, seccionada por tomada física e chave de manutenção para operação rápida e segura.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🗣️ Rotina Inteligente por Voz e Clima</h3>
+      <p>Integração total ao ecossistema Alexa para <b>checagem prévia da previsão do tempo</b>, envio de notificações no smartphone e feedback por voz antes e depois da rega.</p>
+    </td>
+    <td width="50%">
+      <h3>🛠️ Arquitetura Acessível & Aberta</h3>
+      <p>Construído com componentes modulares de fácil acesso, otimizado para operação em nuvem (Smart Life/Tuya) e estruturado para futura migração local via <b>ESP32 e Home Assistant (CasaOS)</b>.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
