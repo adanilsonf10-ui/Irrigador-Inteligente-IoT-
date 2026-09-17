@@ -4,9 +4,9 @@
 ### *Smart Irrigation Hub & Automation System*
 
 [![Licença](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Ativo%20%26%20Em%20Produ%C3%A7%C3%A3o-brightgreen.svg?style=for-the-badge)](#)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Smart%20Life%20%7C%20Tuya%20%7C%20Alexa-blue.svg?style=for-the-badge)](#)
-[![Hardware](https://img.shields.io/badge/Hardware-12V%20DC%20%7C%20Bomba%20Dupla-orange.svg?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Ativo%20%26%20Em%20Produ%C3%A7%C3%A3o-brightgreen.svg?style=for-the-badge)](#visao-geral)
+[![Plataforma](https://img.shields.io/badge/Plataforma-Smart%20Life%20%7C%20Tuya%20%7C%20Alexa-blue.svg?style=for-the-badge)](#automacao)
+[![Hardware](https://img.shields.io/badge/Hardware-12V%20DC%20%7C%20Bomba%20Dupla-orange.svg?style=for-the-badge)](#hardware)
 
 ---
 
@@ -26,6 +26,7 @@
 ---
 
 </div>
+
 
 <br/>
 
